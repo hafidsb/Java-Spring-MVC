@@ -1,7 +1,13 @@
 # Java-Spring-MVC
 Spring MVC Implementation
 
-## A. Alur Program
+## Tugas 2
+```
+Nama : Hafid Sriwijaya Bahrun
+NRP  : 05111640000030
+
+```
+### A. Alur Program
 - Melalui route '/home' controller akan mengembalikan halaman 'homepage.jsp'
 - Pada homepage.jsp terdapat link yang akan me-request '/form' ke controller
 - Controller kemudian membalas dengan mengembalikan halaman 'form.jsp' yang sekaligus melakukan inisialisasi kelas model
@@ -16,8 +22,8 @@ Spring MVC Implementation
 - Setelah itu controller akan mengembalikan 'pokemonView.jsp'
 - Di dalam pokemonVIew.jsp data-data pada model dapat langsung dipanggil dengan sintaks '${_nama_atribut_}'
 
-## B. Tampilan Form Entry
+### B. Tampilan Form Entry
 ![1553499765360](https://user-images.githubusercontent.com/32842793/54902580-69847100-4f0c-11e9-9890-6651d5122d12.jpg)
 
-## C. Tampilan Hasil Entry Data
+### C. Tampilan Hasil Entry Data
 ![1553499794854](https://user-images.githubusercontent.com/32842793/54902582-69847100-4f0c-11e9-8fb1-c56b042c787b.jpg)
