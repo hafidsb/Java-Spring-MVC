@@ -1,7 +1,7 @@
 # Java-Spring-MVC
 Spring MVC Implementation
 
-## Tugas 2
+## Tugas 2 - Form & Model Binding
 ```
 Nama : Hafid Sriwijaya Bahrun
 NRP  : 05111640000030
