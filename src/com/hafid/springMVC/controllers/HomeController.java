@@ -13,6 +13,13 @@ import com.hafid.springMVC.models.Pokemon;
 @Controller
 public class HomeController {
 	
+	@RequestMapping("/")
+	public String homePageRedirect() {
+		String page = "redirect:home";
+		
+		return page;
+	}
+	
 	@RequestMapping("/home")
 	public String homePage() {
 		String page = "homepage";
